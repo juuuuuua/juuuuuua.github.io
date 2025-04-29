@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.global{
+    margin: 0;
+    background-color: #7AC6D2;
+    width: 100vw;
+    padding: 2vw 0;
+}
+
+.global ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.global li{
+    display: inline-block;
+    padding: 0 4vw;
+}
+
+.global a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+.global a:hover{
+    color: aliceblue;
+}

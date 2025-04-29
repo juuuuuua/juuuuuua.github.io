@@ -1,0 +1,29 @@
+img{
+    width: 90vw;
+}
+
+.main-container{
+    padding: 2vw 5vw;
+}
+
+.inform{
+    list-style: none;
+    padding: 1vw;
+    margin: 0;
+    background-color: azure;
+    width: 55vw;
+    border: solid 1px black;
+}
+
+.traffic{
+    margin: 0;
+    padding: 0 2vw;
+}
+
+.rule{
+    padding: 2vw 3vw;
+    margin: 0;
+    background-color: azure;
+    width: 81vw;
+    border: solid 1px black;
+}
