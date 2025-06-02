@@ -30,7 +30,7 @@ table, tr, td{
     font-family: "Zen Kurenaido", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 td{
     padding: 3%;
@@ -40,4 +40,22 @@ td{
     font-family: "Zen Kurenaido", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+@media screen and (max-width:600px){
+    .card{
+        flex-direction: column;
+    }
+    .card img{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 80%;
+    }
+    .card table{
+        width: 70%;
+        margin: auto;
+    }
+    td{
+        font-size: 4vw;
+    }
 }

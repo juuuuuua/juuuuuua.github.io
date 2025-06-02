@@ -46,6 +46,9 @@ html{
     .topnav a{
         padding: 14px 13px; 
     }
+    .header img{
+        width: 120px;
+    }
 }
 .topnav a:hover{
     background-color: #ddd;
@@ -56,7 +59,7 @@ html{
   font-family: "Orbit", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.4vw;
 }
 
 
@@ -68,4 +71,17 @@ html{
     right: 2vw;
     bottom: 2vh;
     width: 5vw;
+}
+
+@media screen and (max-width:600px){
+    .nav-font{
+        font-size: 120%;
+    }
+    .to-home{
+        position: fixed;
+        right: 2vw;
+        bottom: 2vh;
+        width: 14vw;
+    }
+
 }

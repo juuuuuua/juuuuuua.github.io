@@ -15,9 +15,6 @@ body{
     color: white;
     margin: 0;
 }
-.header img{
-    width: 180px;
-}
 
 .topnav{
     background-color: #333;
@@ -76,12 +73,11 @@ body{
 .card p{
     margin: 0;
     padding: 0 2% 2% 2%;
-    font-size: 1.5rem;
     font-family: "Hahmlet", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: black;
 }
 .card img{
@@ -102,4 +98,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+
+@media screen and (max-width:900px){
+    .card p{
+        font-size: 3vw;
+    }
 }
