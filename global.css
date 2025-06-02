@@ -1,0 +1,71 @@
+html{
+    background-color: black;
+}
+.clear{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 3%;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    /* background: white; */
+    background-color: black;
+}
+.header h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.header img{
+    width: 180px;
+}
+
+.topnav{
+    background-color: #333;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.topnav a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+/* 화면이 800px보다 작을 경우 퀵메뉴 */
+@media screen and (max-width:900px){
+    .topnav a{
+        padding: 14px 13px; 
+    }
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-font{
+  font-family: "Orbit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+
+.to-home img{
+    width: 100%;
+}
+.to-home{
+    position: fixed;
+    right: 2vw;
+    bottom: 2vh;
+    width: 5vw;
+}

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    /* background: white; */
+    background-color: black;
+}
+.header h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.header img{
+    width: 180px;
+}
+
+.topnav{
+    background-color: #333;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.topnav a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+/* 화면이 800px보다 작을 경우 퀵메뉴 */
+@media screen and (max-width:900px){
+    .topnav a{
+        padding: 14px 13px; 
+    }
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+.leftcolumn a, .rightcolumn a{
+    text-decoration: none;
+}
+.leftcolumn{
+    background-color: none;
+    float: left;
+    width: 50%;
+}
+.rightcolumn{
+    float: right;
+    width: 50%;
+}
+.leftcolumn .card{
+    margin-right: 4%;
+    margin-left: 15%;
+}
+.rightcolumn .card{
+    margin-left: 4%;
+    margin-right: 15%;
+}
+.card{
+    margin-bottom: 8%;
+    padding: 3% 3% 0% 3%;
+    background-color:white;
+    border-radius: 2%;
+}
+.card p{
+    margin: 0;
+    padding: 0 2% 2% 2%;
+    font-size: 1.5rem;
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+}
+.card img{
+    border-radius: 2%;
+}
+
+.leftcolumn img, .rightcolumn img{
+    width: 100%;
+}
+
+.wrapper a:hover{
+    filter: blur(5px);
+}
+
+.wrapper{
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

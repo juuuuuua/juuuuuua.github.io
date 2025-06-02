@@ -1,0 +1,52 @@
+img{
+    /* width: 23%; */
+    width: 100%;
+}
+
+.wrap{
+    margin: 4% auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.backg{
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.left{
+    float: left;
+    /* background-color: aliceblue; */
+    width: 30%;
+}
+.mid{
+    float: left;
+    /* background-color: aliceblue; */
+    width: 30%;
+}
+.right{
+    float: left;
+    /* background-color: aliceblue; */
+    width: 30%;
+}
+.card{
+    background-color: aliceblue;
+    margin-bottom: 8%;
+    padding: 4%;
+    border-radius: 3%;
+}
+.card img{
+    border-radius: 2%;
+}
+.card p{
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 2%;
+
+    
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+}

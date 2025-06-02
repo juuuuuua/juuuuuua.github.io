@@ -1,0 +1,53 @@
+img{
+    border-radius: 1%;
+}
+.main-img{
+    width: 50%;
+    display: block;
+    margin: 1.5% auto 5% auto;
+    margin-bottom: 8%;
+    
+}
+.wrapper{
+    padding: 3%;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: 100%; 
+    margin: 0;
+}
+
+.card1, .card2{
+    padding: 0 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+    margin-bottom: 5%;
+}
+.in{
+    width: 35%;
+}
+.in img{
+    width: 100%;
+    margin: auto 0;
+}
+.card1 div, .card2 div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card1 p, .card2 p{
+    margin: 0;
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.font{
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

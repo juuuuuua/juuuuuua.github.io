@@ -1,0 +1,82 @@
+table, tr, td{
+    border: 0.1rem solid rgb(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    color: white;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+.wrap{
+    text-align: center;
+    padding: 3%;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+p{
+    color: white;
+}
+
+.main{
+    /* 메인 이미지 */
+    width: 45%;
+    margin-bottom: 6%;
+    margin-top: 2%;
+    border-radius: 2%;
+    box-shadow: 0 0 40px rgba(256, 256, 256);
+}
+
+.info {
+    margin: auto;
+    margin-bottom: 7%;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* background-color: rgba(256, 256, 256, 0.3); */
+    border-radius: 1vw;
+    padding: 2% 0;
+}
+.info img{
+    width: 40%;
+    margin-right: 6%;
+}
+.info table{
+    width: 40%;
+}
+.info td{
+    padding: 3%;
+    margin: 0;
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.set-list{
+    text-align: center;
+}
+.set-list table{
+    margin: auto;
+    width: 50%;
+}
+.set-list td{
+    padding: 2% 0;
+}
+.zen-kurenaido-regular {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.middle{
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
